@@ -21,7 +21,7 @@ export default function Projects() {
             fuga dolore.
           </p>
         </div>
-        <div className="flex flex-wrap container p-5 mx-auto text-center m-4">
+        <div className="flex flex-wrap align-center container p-5 mx-auto text-center m-4">
           {projects.map((project) => (
             // <a
             //   href={project.link}
@@ -32,11 +32,11 @@ export default function Projects() {
               key={project.image}
               className="p-2 m-1 border-4 rounded-lg border-gray-800 bg-gray-900"
             >
-              <div className="mb-2 flex flex-row align-center justify-between">
-                <a className="w-full" href="/">
+              <div style={{minWidth: '10rem'}} className="mb-2 flex flex-row align-center justify-between">
+                <a className="min-w-5" href="/">
                  <CodeIcon className="max-w-5" />
                 </a>
-                <a className="w-full" href="/">
+                <a className="min-w-5" href="/">
                 <ExternalLinkIcon className="max-w-5" />
                 </a>
               </div>

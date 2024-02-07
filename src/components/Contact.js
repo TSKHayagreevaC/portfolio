@@ -47,15 +47,15 @@ export default function Contact() {
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             Hire Me
           </h2>
-          <p className="leading-relaxed mb-5">
+          <p className="mb-8 leading-relaxed text-gray-900">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
             suscipit officia aspernatur veritatis. Asperiores, aliquid?
           </p>
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="name" className="leading-7 text-sm text-gray-900">
               Name
             </label>
             <input
@@ -66,7 +66,7 @@ export default function Contact() {
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="email" className="leading-7 text-sm text-gray-900">
               Email
             </label>
             <input
@@ -79,7 +79,7 @@ export default function Contact() {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-gray-400"
+              className="leading-7 text-sm text-gray-900"
             >
               Message
             </label>

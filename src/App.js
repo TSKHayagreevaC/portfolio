@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Srikanth Hayagreevacharya Thirumala
         </a>
       </header>
     </div>
